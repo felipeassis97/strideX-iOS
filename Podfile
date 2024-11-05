@@ -5,6 +5,6 @@ target 'StrideX' do
   use_frameworks!
 
   # Pods for StrideX
-  pod 'Kingfisher', '~> 7.0'
+  
 
 end
