@@ -7,21 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2EAE737B1FB431371343D49B /* Pods_StrideX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E883A414A13950D5B654554 /* Pods_StrideX.framework */; };
+		0AD15FD97619AA87147EF373 /* Pods_StrideX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F65F9D168B41881437C4714F /* Pods_StrideX.framework */; };
 		9E44ADC02CD591F000FA113B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9E44ADBF2CD591F000FA113B /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		07935FFD2FDF61F08421AA7B /* Pods-StrideX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrideX.debug.xcconfig"; path = "Target Support Files/Pods-StrideX/Pods-StrideX.debug.xcconfig"; sourceTree = "<group>"; };
-		1E883A414A13950D5B654554 /* Pods_StrideX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StrideX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D66617AE8E9A47B44A800FB /* Pods-StrideX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrideX.debug.xcconfig"; path = "Target Support Files/Pods-StrideX/Pods-StrideX.debug.xcconfig"; sourceTree = "<group>"; };
+		720DF16FBAC8FD19CB2ED8FE /* Pods-StrideX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrideX.release.xcconfig"; path = "Target Support Files/Pods-StrideX/Pods-StrideX.release.xcconfig"; sourceTree = "<group>"; };
 		9E44ADBF2CD591F000FA113B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9EA22ED02CD58DFB00D0FA35 /* StrideX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StrideX.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB39B95E118CB915B5F9F5D3 /* Pods-StrideX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrideX.release.xcconfig"; path = "Target Support Files/Pods-StrideX/Pods-StrideX.release.xcconfig"; sourceTree = "<group>"; };
+		F65F9D168B41881437C4714F /* Pods_StrideX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StrideX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		9EA22ED22CD58DFB00D0FA35 /* StrideX */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = StrideX;
 			sourceTree = "<group>";
 		};
@@ -32,7 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EAE737B1FB431371343D49B /* Pods_StrideX.framework in Frameworks */,
+				0AD15FD97619AA87147EF373 /* Pods_StrideX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,16 +44,16 @@
 		6FDE6D25AE66FAAB36A39736 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				07935FFD2FDF61F08421AA7B /* Pods-StrideX.debug.xcconfig */,
-				FB39B95E118CB915B5F9F5D3 /* Pods-StrideX.release.xcconfig */,
+				1D66617AE8E9A47B44A800FB /* Pods-StrideX.debug.xcconfig */,
+				720DF16FBAC8FD19CB2ED8FE /* Pods-StrideX.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		894F56E8D5177ABE751CB747 /* Frameworks */ = {
+		7052150CB4C9BA5C53A6D733 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1E883A414A13950D5B654554 /* Pods_StrideX.framework */,
+				F65F9D168B41881437C4714F /* Pods_StrideX.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -63,7 +65,7 @@
 				9EA22ED22CD58DFB00D0FA35 /* StrideX */,
 				9EA22ED12CD58DFB00D0FA35 /* Products */,
 				6FDE6D25AE66FAAB36A39736 /* Pods */,
-				894F56E8D5177ABE751CB747 /* Frameworks */,
+				7052150CB4C9BA5C53A6D733 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,11 +84,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9EA22EDF2CD58DFC00D0FA35 /* Build configuration list for PBXNativeTarget "StrideX" */;
 			buildPhases = (
-				BD4CA4B1AA558D48B0B75288 /* [CP] Check Pods Manifest.lock */,
+				4991DBC1D4CA74D3060AA0F2 /* [CP] Check Pods Manifest.lock */,
 				9EA22ECC2CD58DFB00D0FA35 /* Sources */,
 				9EA22ECD2CD58DFB00D0FA35 /* Frameworks */,
 				9EA22ECE2CD58DFB00D0FA35 /* Resources */,
-				9107C1B23F99F2FEDCB5BDFA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -146,24 +147,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9107C1B23F99F2FEDCB5BDFA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-StrideX/Pods-StrideX-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-StrideX/Pods-StrideX-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StrideX/Pods-StrideX-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BD4CA4B1AA558D48B0B75288 /* [CP] Check Pods Manifest.lock */ = {
+		4991DBC1D4CA74D3060AA0F2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -314,7 +298,7 @@
 		};
 		9EA22EE02CD58DFC00D0FA35 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07935FFD2FDF61F08421AA7B /* Pods-StrideX.debug.xcconfig */;
+			baseConfigurationReference = 1D66617AE8E9A47B44A800FB /* Pods-StrideX.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -357,7 +341,7 @@
 		};
 		9EA22EE12CD58DFC00D0FA35 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB39B95E118CB915B5F9F5D3 /* Pods-StrideX.release.xcconfig */;
+			baseConfigurationReference = 720DF16FBAC8FD19CB2ED8FE /* Pods-StrideX.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
