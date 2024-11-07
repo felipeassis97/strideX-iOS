@@ -19,10 +19,21 @@
 		F65F9D168B41881437C4714F /* Pods_StrideX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StrideX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		9E3F15FE2CDACB2300A26289 /* Exceptions for "StrideX" folder in "StrideX" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 9EA22ECF2CD58DFB00D0FA35 /* StrideX */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		9EA22ED22CD58DFB00D0FA35 /* StrideX */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
+				9E3F15FE2CDACB2300A26289 /* Exceptions for "StrideX" folder in "StrideX" target */,
 			);
 			path = StrideX;
 			sourceTree = "<group>";
@@ -310,6 +321,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StrideX/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = StrideX;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -353,6 +365,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StrideX/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = StrideX;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
